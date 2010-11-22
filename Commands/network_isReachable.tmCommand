@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>echo "function reachableCallback(reachability) {
+    // There is no consistency on the format of reachability
+    var networkState = reachability.code || reachability;
+
+    var states = {};
+    states[NetworkStatus.NOT_REACHABLE]                      = 'No network connection';
+    states[NetworkStatus.REACHABLE_VIA_CARRIER_DATA_NETWORK] = 'Carrier data connection';
+    states[NetworkStatus.REACHABLE_VIA_WIFI_NETWORK]         = 'WiFi connection';
+
+    alert('Connection type: ' + states[networkState]);
+}
+
+navigator.network.isReachable('phonegap.com', reachableCallback);
+"</string>
+	<key>input</key>
+	<string>selection</string>
+	<key>name</key>
+	<string>network.isReachable</string>
+	<key>output</key>
+	<string>insertAsSnippet</string>
+	<key>tabTrigger</key>
+	<string>network.isreach</string>
+	<key>uuid</key>
+	<string>1560F586-D55B-40C2-9A69-0796EE465E63</string>
+</dict>
+</plist>

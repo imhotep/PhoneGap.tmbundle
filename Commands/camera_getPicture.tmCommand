@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>echo "navigator.camera.getPicture(onSuccess, onFail, { quality: 50 }); 
+
+function onSuccess(imageData) {
+    var image = document.getElementById('myImage');
+    image.src = "data:image/jpeg;base64," + imageData;
+}
+
+function onFail(message) {
+    alert('Failed because: ' + message);
+}"</string>
+	<key>input</key>
+	<string>selection</string>
+	<key>name</key>
+	<string>camera.getPicture</string>
+	<key>output</key>
+	<string>insertAsSnippet</string>
+	<key>tabTrigger</key>
+	<string>cam.getpic</string>
+	<key>uuid</key>
+	<string>803F88B6-6EC6-4AF6-95AA-2FE896DF88C1</string>
+</dict>
+</plist>

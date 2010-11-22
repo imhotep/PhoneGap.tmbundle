@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>echo "function onSuccess(contacts) {
+    alert('Found ' + contacts.length + ' contacts.');
+};
+
+function onError() {
+    alert('onError!');
+};
+
+// find all contacts with 'Bob' in any name field
+var options = new ContactFindOptions();
+options.filter='Bob'; 
+var fields = ['displayName', 'names'];
+navigator.service.contacts.find(fields, onSuccess, onError, options);
+"</string>
+	<key>input</key>
+	<string>selection</string>
+	<key>name</key>
+	<string>contacts.find</string>
+	<key>output</key>
+	<string>insertAsSnippet</string>
+	<key>tabTrigger</key>
+	<string>contacts.find</string>
+	<key>uuid</key>
+	<string>A132012A-07D6-4218-AB4F-DC7A16E3B640</string>
+</dict>
+</plist>

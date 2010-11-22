@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>echo "var myContact = navigator.service.contacts.create({'displayName': 'Test User'});
+"</string>
+	<key>input</key>
+	<string>selection</string>
+	<key>name</key>
+	<string>contacts.create</string>
+	<key>output</key>
+	<string>insertAsSnippet</string>
+	<key>tabTrigger</key>
+	<string>contacts.create</string>
+	<key>uuid</key>
+	<string>3FEE24DA-7DDA-4C0E-8B3C-26A2CCAA3508</string>
+</dict>
+</plist>

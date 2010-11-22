@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>echo "navigator.notification.vibrate(2500);"</string>
+	<key>input</key>
+	<string>selection</string>
+	<key>name</key>
+	<string>notification.vibrate</string>
+	<key>output</key>
+	<string>insertAsSnippet</string>
+	<key>tabTrigger</key>
+	<string>notif.vibrate</string>
+	<key>uuid</key>
+	<string>B056F4F4-5CE0-410A-B806-215B0D28A8B8</string>
+</dict>
+</plist>

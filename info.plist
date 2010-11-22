@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>PhoneGap</string>
+	<key>ordering</key>
+	<array>
+		<string>D64D729B-A6C6-46ED-AE45-509E346F5171</string>
+		<string>22811697-8BF0-4809-8CDA-92D6840726B8</string>
+		<string>0E0785A1-4E13-4AE1-9932-34CA2CEB0F99</string>
+		<string>803F88B6-6EC6-4AF6-95AA-2FE896DF88C1</string>
+		<string>3FEE24DA-7DDA-4C0E-8B3C-26A2CCAA3508</string>
+		<string>A132012A-07D6-4218-AB4F-DC7A16E3B640</string>
+		<string>EAB1350D-84D1-4387-BD76-59488F73FB16</string>
+		<string>2385C6B8-6011-4D41-9884-E64963FBE9E1</string>
+		<string>CBAA96F2-3D08-4510-9014-2E52043B5790</string>
+		<string>1560F586-D55B-40C2-9A69-0796EE465E63</string>
+		<string>5E5A2B54-3EB8-4593-B59E-B89D7A04AD92</string>
+		<string>FB689158-EC3D-4BE8-8825-788F245D572B</string>
+		<string>5C95E5F5-ED2B-4EF1-95FE-62B5D0E4A823</string>
+		<string>B056F4F4-5CE0-410A-B806-215B0D28A8B8</string>
+	</array>
+	<key>uuid</key>
+	<string>E10112FC-6BB4-4098-9AEC-17EC6F4B8421</string>
+</dict>
+</plist>
