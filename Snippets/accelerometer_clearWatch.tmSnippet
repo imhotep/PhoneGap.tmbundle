@@ -7,7 +7,7 @@
 
 // ... later on ...
 
-echo "navigator.accelerometer.clearWatch(watchID);
+navigator.accelerometer.clearWatch(watchID);
 </string>
 	<key>name</key>
 	<string>accelerometer.clearWatch</string>
