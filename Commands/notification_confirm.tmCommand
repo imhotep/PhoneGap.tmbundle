@@ -26,6 +26,8 @@ function showConfirm() {
 	<string>notification.confirm</string>
 	<key>output</key>
 	<string>insertAsSnippet</string>
+	<key>scope</key>
+	<string>source.js</string>
 	<key>tabTrigger</key>
 	<string>notif.confirm</string>
 	<key>uuid</key>

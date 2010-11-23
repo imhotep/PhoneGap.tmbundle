@@ -25,6 +25,8 @@ navigator.network.isReachable('phonegap.com', reachableCallback);
 	<string>network.isReachable</string>
 	<key>output</key>
 	<string>insertAsSnippet</string>
+	<key>scope</key>
+	<string>source.js</string>
 	<key>tabTrigger</key>
 	<string>network.isreach</string>
 	<key>uuid</key>

@@ -13,6 +13,8 @@
 	<string>contacts.create</string>
 	<key>output</key>
 	<string>insertAsSnippet</string>
+	<key>scope</key>
+	<string>source.js</string>
 	<key>tabTrigger</key>
 	<string>contacts.create</string>
 	<key>uuid</key>

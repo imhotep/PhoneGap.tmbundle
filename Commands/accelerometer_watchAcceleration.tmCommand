@@ -30,6 +30,8 @@ var watchID = navigator.accelerometer.watchAcceleration(onSuccess, onError, opti
 	<string>accelerometer.watchAcceleration</string>
 	<key>output</key>
 	<string>insertAsSnippet</string>
+	<key>scope</key>
+	<string>source.js</string>
 	<key>tabTrigger</key>
 	<string>accel.wa</string>
 	<key>uuid</key>

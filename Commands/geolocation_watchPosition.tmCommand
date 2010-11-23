@@ -33,6 +33,8 @@ var watchID = navigator.geolocation.watchPosition(onSuccess, onError, { frequenc
 	<string>geolocation.watchPosition</string>
 	<key>output</key>
 	<string>insertAsSnippet</string>
+	<key>scope</key>
+	<string>source.js</string>
 	<key>tabTrigger</key>
 	<string>geo.watchpos</string>
 	<key>uuid</key>

@@ -18,6 +18,8 @@ echo "navigator.accelerometer.clearWatch(watchID);"</string>
 	<string>accelerometer.clearWatch</string>
 	<key>output</key>
 	<string>insertAsSnippet</string>
+	<key>scope</key>
+	<string>source.js</string>
 	<key>tabTrigger</key>
 	<string>accel.cw</string>
 	<key>uuid</key>

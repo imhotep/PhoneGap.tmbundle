@@ -34,6 +34,8 @@ navigator.geolocation.getCurrentPosition(onSuccess, onError);"</string>
 	<string>geolocation.getCurrentPosition</string>
 	<key>output</key>
 	<string>insertAsSnippet</string>
+	<key>scope</key>
+	<string>source.js</string>
 	<key>tabTrigger</key>
 	<string>geo.getpos</string>
 	<key>uuid</key>

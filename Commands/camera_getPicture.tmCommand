@@ -21,6 +21,8 @@ function onFail(message) {
 	<string>camera.getPicture</string>
 	<key>output</key>
 	<string>insertAsSnippet</string>
+	<key>scope</key>
+	<string>source.js</string>
 	<key>tabTrigger</key>
 	<string>cam.getpic</string>
 	<key>uuid</key>

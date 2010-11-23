@@ -12,6 +12,8 @@
 	<string>geolocation.clearWatch</string>
 	<key>output</key>
 	<string>insertAsSnippet</string>
+	<key>scope</key>
+	<string>source.js</string>
 	<key>tabTrigger</key>
 	<string>geo.clearwatch</string>
 	<key>uuid</key>

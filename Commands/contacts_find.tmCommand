@@ -25,6 +25,8 @@ navigator.service.contacts.find(fields, onSuccess, onError, options);
 	<string>contacts.find</string>
 	<key>output</key>
 	<string>insertAsSnippet</string>
+	<key>scope</key>
+	<string>source.js</string>
 	<key>tabTrigger</key>
 	<string>contacts.find</string>
 	<key>uuid</key>

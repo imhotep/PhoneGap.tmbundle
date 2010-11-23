@@ -28,6 +28,8 @@ navigator.notification.alert('You are the winner!');
 	<string>notification.alert</string>
 	<key>output</key>
 	<string>insertAsSnippet</string>
+	<key>scope</key>
+	<string>source.js</string>
 	<key>tabTrigger</key>
 	<string>notif.alert</string>
 	<key>uuid</key>

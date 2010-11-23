@@ -25,6 +25,8 @@ navigator.accelerometer.getCurrentAcceleration(onSuccess, onError);"</string>
 	<string>accelerometer.getCurrentAcceleration</string>
 	<key>output</key>
 	<string>insertAsSnippet</string>
+	<key>scope</key>
+	<string>source.js</string>
 	<key>tabTrigger</key>
 	<string>accel.gca</string>
 	<key>uuid</key>
