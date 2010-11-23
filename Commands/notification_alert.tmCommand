@@ -24,8 +24,6 @@ navigator.notification.alert('You are the winner!');
 "</string>
 	<key>input</key>
 	<string>selection</string>
-	<key>keyEquivalent</key>
-	<string></string>
 	<key>name</key>
 	<string>notification.alert</string>
 	<key>output</key>
