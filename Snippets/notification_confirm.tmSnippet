@@ -2,10 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>beforeRunningCommand</key>
-	<string>nop</string>
-	<key>command</key>
-	<string>echo "// process the confirmation dialog result
+	<key>content</key>
+	<string>// process the confirmation dialog result
 function onConfirm(button) {
     alert('You selected button ' + button);
 }
@@ -19,18 +17,13 @@ function showConfirm() {
         'Game Over',            // title
         'Restart,Exit'          // buttonLabels
     );
-}"</string>
-	<key>input</key>
-	<string>selection</string>
+}
+</string>
 	<key>name</key>
 	<string>notification.confirm</string>
-	<key>output</key>
-	<string>insertAsSnippet</string>
 	<key>scope</key>
 	<string>source.js</string>
-	<key>tabTrigger</key>
-	<string>notif.confirm</string>
 	<key>uuid</key>
-	<string>FB689158-EC3D-4BE8-8825-788F245D572B</string>
+	<string>EE61AE82-0ECE-492C-B210-60465181497E</string>
 </dict>
 </plist>

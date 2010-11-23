@@ -2,10 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>beforeRunningCommand</key>
-	<string>nop</string>
-	<key>command</key>
-	<string>echo "navigator.camera.getPicture(onSuccess, onFail, { quality: 50 }); 
+	<key>content</key>
+	<string>navigator.camera.getPicture(onSuccess, onFail, { quality: 50 }); 
 
 function onSuccess(imageData) {
     var image = document.getElementById('myImage');
@@ -14,18 +12,13 @@ function onSuccess(imageData) {
 
 function onFail(message) {
     alert('Failed because: ' + message);
-}"</string>
-	<key>input</key>
-	<string>selection</string>
+}
+</string>
 	<key>name</key>
 	<string>camera.getPicture</string>
-	<key>output</key>
-	<string>insertAsSnippet</string>
 	<key>scope</key>
 	<string>source.js</string>
-	<key>tabTrigger</key>
-	<string>cam.getpic</string>
 	<key>uuid</key>
-	<string>803F88B6-6EC6-4AF6-95AA-2FE896DF88C1</string>
+	<string>27CC61E0-72D0-4CD4-9B34-F8EB5E1BC06A</string>
 </dict>
 </plist>

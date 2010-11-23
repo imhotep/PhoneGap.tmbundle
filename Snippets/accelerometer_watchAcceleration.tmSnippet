@@ -2,15 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>beforeRunningCommand</key>
-	<string>nop</string>
-	<key>command</key>
-	<string># just to remind you of some useful environment variables
-# see Help / Environment Variables for the full list
-# echo File: "$TM_FILEPATH"
-# echo Word: "$TM_CURRENT_WORD"
-# echo Selection: "$TM_SELECTED_TEXT"
-echo "function onSuccess(acceleration) {
+	<key>content</key>
+	<string>function onSuccess(acceleration) {
     alert('Acceleration X: ' + acceleration.x + '\n' +
           'Acceleration Y: ' + acceleration.y + '\n' +
           'Acceleration Z: ' + acceleration.z + '\n' +
@@ -23,18 +16,13 @@ function onError() {
 
 var options = { frequency: 3000 };  // Update every 3 seconds
 
-var watchID = navigator.accelerometer.watchAcceleration(onSuccess, onError, options);"</string>
-	<key>input</key>
-	<string>selection</string>
+var watchID = navigator.accelerometer.watchAcceleration(onSuccess, onError, options);
+</string>
 	<key>name</key>
 	<string>accelerometer.watchAcceleration</string>
-	<key>output</key>
-	<string>insertAsSnippet</string>
 	<key>scope</key>
 	<string>source.js</string>
-	<key>tabTrigger</key>
-	<string>accel.wa</string>
 	<key>uuid</key>
-	<string>D64D729B-A6C6-46ED-AE45-509E346F5171</string>
+	<string>A85EBBE0-269F-4610-84C5-D0678F05880D</string>
 </dict>
 </plist>

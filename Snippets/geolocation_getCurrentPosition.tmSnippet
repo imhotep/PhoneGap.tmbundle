@@ -2,10 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>beforeRunningCommand</key>
-	<string>nop</string>
-	<key>command</key>
-	<string>echo "// onSuccess Callback
+	<key>content</key>
+	<string>// onSuccess Callback
 //   This method accepts a `Position` object, which contains
 //   the current GPS coordinates
 //
@@ -27,18 +25,12 @@ function onError(error) {
           'message: ' + error.message + '\n');
 }
 
-navigator.geolocation.getCurrentPosition(onSuccess, onError);"</string>
-	<key>input</key>
-	<string>selection</string>
+navigator.geolocation.getCurrentPosition(onSuccess, onError);</string>
 	<key>name</key>
 	<string>geolocation.getCurrentPosition</string>
-	<key>output</key>
-	<string>insertAsSnippet</string>
 	<key>scope</key>
 	<string>source.js</string>
-	<key>tabTrigger</key>
-	<string>geo.getpos</string>
 	<key>uuid</key>
-	<string>EAB1350D-84D1-4387-BD76-59488F73FB16</string>
+	<string>9BCF8FBD-97C8-479B-AB41-B23EDF627643</string>
 </dict>
 </plist>

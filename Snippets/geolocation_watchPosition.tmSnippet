@@ -2,10 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>beforeRunningCommand</key>
-	<string>nop</string>
-	<key>command</key>
-	<string>echo "// onSuccess Callback
+	<key>content</key>
+	<string>// onSuccess Callback
 //   This method accepts a `Position` object, which contains
 //   the current GPS coordinates
 //
@@ -26,18 +24,12 @@ function onError(error) {
 // Options: retrieve the location every 3 seconds
 //
 var watchID = navigator.geolocation.watchPosition(onSuccess, onError, { frequency: 3000 });
-"</string>
-	<key>input</key>
-	<string>selection</string>
+</string>
 	<key>name</key>
 	<string>geolocation.watchPosition</string>
-	<key>output</key>
-	<string>insertAsSnippet</string>
 	<key>scope</key>
 	<string>source.js</string>
-	<key>tabTrigger</key>
-	<string>geo.watchpos</string>
 	<key>uuid</key>
-	<string>2385C6B8-6011-4D41-9884-E64963FBE9E1</string>
+	<string>9DBDF595-4127-4DFF-B57D-89828981E360</string>
 </dict>
 </plist>

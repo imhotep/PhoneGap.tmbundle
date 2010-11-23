@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>var watchID = navigator.accelerometer.watchAcceleration(onSuccess, onError, options);
+
+// ... later on ...
+
+echo "navigator.accelerometer.clearWatch(watchID);
+</string>
+	<key>name</key>
+	<string>accelerometer.clearWatch</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>uuid</key>
+	<string>4B1C9E0D-5796-4DDB-927D-60A2C9B039EA</string>
+</dict>
+</plist>
