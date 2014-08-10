@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>function onSuccess(acceleration) {
+    alert('Acceleration X: ' + acceleration.x + '\n' +
+          'Acceleration Y: ' + acceleration.y + '\n' +
+          'Acceleration Z: ' + acceleration.z + '\n' +
+          'Timestamp: '      + acceleration.timestamp + '\n');
+};
+
+function onError() {
+    alert('onError!');
+};
+
+var options = { frequency: 3000 };  // Update every 3 seconds
+
+var watchID = navigator.accelerometer.watchAcceleration(onSuccess, onError, options);
+</string>
+	<key>name</key>
+	<string>accelerometer.watchAcceleration</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>uuid</key>
+	<string>A85EBBE0-269F-4610-84C5-D0678F05880D</string>
+</dict>
+</plist>

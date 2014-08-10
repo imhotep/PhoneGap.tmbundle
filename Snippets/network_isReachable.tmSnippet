@@ -2,10 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>beforeRunningCommand</key>
-	<string>nop</string>
-	<key>command</key>
-	<string>echo "function reachableCallback(reachability) {
+	<key>content</key>
+	<string>function reachableCallback(reachability) {
     // There is no consistency on the format of reachability
     var networkState = reachability.code || reachability;
 
@@ -18,16 +16,12 @@
 }
 
 navigator.network.isReachable('phonegap.com', reachableCallback);
-"</string>
-	<key>input</key>
-	<string>selection</string>
+</string>
 	<key>name</key>
 	<string>network.isReachable</string>
-	<key>output</key>
-	<string>insertAsSnippet</string>
-	<key>tabTrigger</key>
-	<string>network.isreach</string>
+	<key>scope</key>
+	<string>source.js</string>
 	<key>uuid</key>
-	<string>1560F586-D55B-40C2-9A69-0796EE465E63</string>
+	<string>C75A0568-0F5A-493E-919B-55E01DDE6821</string>
 </dict>
 </plist>

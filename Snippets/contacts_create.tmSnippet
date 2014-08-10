@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>var myContact = navigator.service.contacts.create({'displayName': 'Test User'});
+</string>
+	<key>name</key>
+	<string>contacts.create</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>uuid</key>
+	<string>A4AEF85C-C632-4D9F-A002-DF7778AE3922</string>
+</dict>
+</plist>

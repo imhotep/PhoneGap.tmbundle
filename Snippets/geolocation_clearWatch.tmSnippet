@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>navigator.geolocation.clearWatch(watchID);
+</string>
+	<key>name</key>
+	<string>geolocation.clearWatch</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>uuid</key>
+	<string>F4034920-ECCB-4624-8257-8E9A8EF16CF8</string>
+</dict>
+</plist>
